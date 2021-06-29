@@ -11,9 +11,14 @@
     <modules>
         <module>mybatis-01</module>
         <module>mybatis-02</module>
+        <module>mybatis-03</module>
+        <module>mybatis-04</module>
+        <module>mybatis-05</module>
+        <module>mybatis-06</module>
+        <module>mybatis-07</module>
     </modules>
 
-    <dependencyManagement>
+
         <dependencies>
             <dependency>
                 <groupId>mysql</groupId>
@@ -31,7 +36,7 @@
                 <version>4.12</version>
             </dependency>
         </dependencies>
-    </dependencyManagement>
+
 
 
 </project>

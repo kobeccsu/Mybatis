@@ -6,10 +6,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.junit.Before;
 import org.junit.Test;
 
-import javax.jws.soap.SOAPBinding;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class UserMapperTest {
 

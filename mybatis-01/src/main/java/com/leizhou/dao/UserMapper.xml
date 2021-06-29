@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.leizhou.dao.UserMapper">
+<mapper namespace="com.leizhou.dao.UserDao">
     <select id="getUserList" resultType="com.leizhou.pojo.User">
         select * from user;
     </select>

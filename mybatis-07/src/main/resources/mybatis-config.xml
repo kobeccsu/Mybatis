@@ -5,6 +5,7 @@
 <configuration>
     <properties resource="db.properties"/>
 
+
     <typeAliases>
 <!--        <typeAlias type="com.leizhou.pojo.User" alias="User"/>-->
         <package name="com.leizhou.pojo"/>
@@ -20,7 +21,9 @@
             </dataSource>
         </environment>
     </environments>
+
     <mappers>
-        <mapper class="com.leizhou.dao.UserMapper"/>
+        <mapper resource="com/leizhou/dao/StudentMapper.xml"/>
+        <mapper resource="com/leizhou/dao/TeacherMapper.xml"/>
     </mappers>
 </configuration>
